@@ -1,0 +1,27 @@
+package com.hcl;
+import java.io.*;
+import java.lang.*;
+
+public class StringApi {
+	public static void main(String args[]) {
+		String str="Sneha Sonawane";
+		System.out.println("Length of String is:"+str.length());
+		
+		String str1="Software";
+		String str2="Engineer";
+		
+		System.out.println("Concatenation: "+str1.concat(str2));
+		
+		System.out.println(str1.compareTo(str2));
+		
+		System.out.println(str1.contains(str2));
+		
+		System.out.println(str1.indexOf('t'));
+		
+		System.out.println(str.replace('e', 'a'));
+		
+		
+		
+	}
+
+}
